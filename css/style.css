@@ -26,9 +26,36 @@ header{
     border-bottom:#e8491d 3px solid
 }
 
-/* all parts with the a tag within the header (links)*/
+/* all parts with the 'a' tag within the header (links)*/
 header a {
     color: #ffffff;
     text-decoration:none;
 
+}
+
+/* all parts with the 'ul' tag within the header (unordered list)*/
+header ul{
+    margin:0;
+    padding:0;
+}
+
+/* all parts with the 'il' tag within the header (list parts)*/
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float:left;
+}
+
+header #branding h1{
+    margin: 0;
+
+}
+
+hader nav{
+    float: right;
+    margin-top: 10px;
 }
